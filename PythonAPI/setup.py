@@ -19,8 +19,7 @@ setup(
     package_dir = {'pycocotools': 'pycocotools'},
     install_requires=[
         'setuptools>=18.0',
-        'cython>=0.27.3',
-        'matplotlib>=2.1.0'
+        'cython>=0.27.3'
     ],
     version='2.0',
     ext_modules= ext_modules
